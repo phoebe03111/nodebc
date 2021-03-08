@@ -1,0 +1,2 @@
+let series = ['ThisIsUs', 'Justified', 'ModernFamily', 'TheOffice', 'Suits', 'WestWorld', 'LaCasaDePapel', 'TheMandalorian', 'QueensGambit', 'Firefly'];
+console.log(series[0], 'and', series[series.length-1]);

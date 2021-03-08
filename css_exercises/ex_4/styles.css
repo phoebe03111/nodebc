@@ -1,0 +1,19 @@
+* {
+    color: green;
+}
+
+#login {
+    color: gray;
+}
+
+.red {
+    color: red;
+}
+
+label, input {
+    color: pink;
+}
+
+input[type="submit"] {
+    color: brown;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Products</title>
+        <script>
+            window.onload = () => {
+                let ul = document.querySelector('ul');
+                while (ul.children.length > 0) {
+                    let li = ul.children.item(0);
+                    
+                    ul.removeChild(li);
+                }
+                
+            }
+        </script>
+    </head>
+    <body>
+        <ul>
+            <li>Banana</li>
+            <li>Apple</li>
+            <li>Peach</li>
+            <li>Eggs</li>
+            <li>Tomato</li>
+            <li>Lettuce</li>
+            <li>Milk</li>
+        </ul>
+    </body>
+</html>

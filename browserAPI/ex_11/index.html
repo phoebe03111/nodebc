@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        let username = prompt('Please enter your username');
+        let password = prompt('Please enter your password');
+        alert(`Welcome ${username}`);
+
+        let logged = function () {
+            let answer = confirm('Do you still want to be logged?');
+            if (answer) {
+                alert(`${username} Your session has been restored`);
+            } else {
+                alert(`${username} Your session has expired`);
+            }
+        }
+
+        setTimeout(logged, 10000);
+
+    </script>
+</head>
+
+</html>

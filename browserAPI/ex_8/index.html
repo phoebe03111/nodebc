@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        alert('This program adds all the numbers you input');
+
+        let result = 0;
+        let count = 0;
+
+        do {
+            let number = Number(prompt('Enter a number:'));
+            if (isNaN(number)) {
+                alert('Please enter a valid number');
+                continue;
+            }
+            result += number;
+            count++;
+            alert(`The result so far is ${result}`);
+
+        } while (confirm('Do you want to add another number?'));
+
+        alert(`The final result is ${result};\n The user input ${count} numbers;\n The average is: ${result / count}.`);
+
+    </script>
+</head>
+
+</html>
